@@ -12,9 +12,7 @@ public class App {
         System.out.println(a.getOfertaDias());
         a.getNome();
         System.out.println(a.getNome());
-        Fornecedor ta = new Fornecedor();
-        ta.getProduto();
-        System.out.println(ta.getProduto());
-        a.getDocumento();
+
+
     }
 }
