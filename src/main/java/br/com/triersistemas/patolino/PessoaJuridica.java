@@ -2,6 +2,7 @@ package br.com.triersistemas.patolino;
 
 public abstract class PessoaJuridica extends Pessoa {
 
+
     public PessoaJuridica() {
 
     }

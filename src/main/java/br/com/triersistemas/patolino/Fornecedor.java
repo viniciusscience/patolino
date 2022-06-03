@@ -11,13 +11,15 @@ public class Fornecedor extends PessoaJuridica{
         return Produto;
     }
 
-    public Fornecedor() {
-    List<String> produtos = new ArrayList<>();
+     Fornecedor() {
+
+        List<String> produtos = new ArrayList<>();
     produtos.add("racao");
     produtos.add("remedio");
     produtos.add("acessorios");
     var na = new SplittableRandom();
     this.Produto=produtos.get(na.nextInt(0,produtos.size()));
+
 
     }
 
